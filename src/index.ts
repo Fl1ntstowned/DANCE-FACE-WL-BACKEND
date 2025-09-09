@@ -15,6 +15,7 @@ const DATA_FILE = path.join(__dirname, '..', 'wallets.json');
 const corsOptions = {
   origin: [
     'https://dance-face-wl.up.railway.app',
+    'https://satoshibrowser.xyz',
     'http://localhost:3000',
     'http://localhost:3001'
   ],
