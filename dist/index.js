@@ -13,7 +13,17 @@ dotenv_1.default.config();
 const app = (0, express_1.default)();
 const PORT = process.env.PORT || 3001;
 const DATA_FILE = path_1.default.join(__dirname, '..', 'wallets.json');
-app.use((0, cors_1.default)());
+// Configure CORS to allow frontend
+const corsOptions = {
+    origin: [
+        'https://dance-face-wl.up.railway.app',
+        'http://localhost:3000',
+        'http://localhost:3001'
+    ],
+    credentials: true,
+    optionsSuccessStatus: 200
+};
+app.use((0, cors_1.default)(corsOptions));
 app.use(body_parser_1.default.json());
 app.use(body_parser_1.default.urlencoded({ extended: true }));
 const loadWallets = () => {
