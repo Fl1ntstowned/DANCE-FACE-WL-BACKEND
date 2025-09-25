@@ -1,5 +1,21 @@
 [
   {
+    "id": "1758832610432_crj5lqdl7",
+    "xHandle": "Ob1_Wan_Satoshi",
+    "walletAddress": "bc1pae6v9gzp06hyl5kxfkztdt3slvp2zweeaw5z4rxruxst8upqclts75ye5e",
+    "score": 25550,
+    "combo": 385,
+    "accuracy": 99.8,
+    "grade": "SSS",
+    "difficulty": "easy",
+    "songTitle": "1988",
+    "perfect": 2,
+    "great": 253,
+    "good": 191,
+    "miss": 1,
+    "timestamp": "2025-09-25T20:36:50.432Z"
+  },
+  {
     "id": "1758770173089_cugy5f5o2",
     "xHandle": "Ob1_WAN_SATOSHI",
     "walletAddress": "bc1pae6v9gzp06hyl5kxfkztdt3slvp2zweeaw5z4rxruxst8upqclts75ye5e",
