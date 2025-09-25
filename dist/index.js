@@ -20,7 +20,8 @@ const corsOptions = {
         'https://dance-face-wl.up.railway.app',
         'https://satoshibrowser.xyz',
         'http://localhost:3000',
-        'http://localhost:3001'
+        'http://localhost:3001',
+        'http://localhost:3003' // Added for when port 3000 is busy
     ],
     credentials: true,
     optionsSuccessStatus: 200
